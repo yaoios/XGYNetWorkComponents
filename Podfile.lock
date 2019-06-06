@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 89c4a20d86a963bfb003dae98b457219cc326cbe
+PODS:
+  - XGYMediator (0.0.2)
+
+DEPENDENCIES:
+  - XGYMediator (~> 0.0.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - XGYMediator
+
+SPEC CHECKSUMS:
+  XGYMediator: 6b2b18b17c686273cf89e7c3f9989a96ec430474
+
+PODFILE CHECKSUM: aaae9a5aa56d1b957a8c0e4ba0ce2c7242f794bc
 
 COCOAPODS: 1.6.1

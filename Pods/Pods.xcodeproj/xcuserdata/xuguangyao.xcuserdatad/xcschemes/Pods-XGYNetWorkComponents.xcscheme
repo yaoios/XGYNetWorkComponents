@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EAB5DFE810CF3D918724452AAFA7C94A"
+               BlueprintIdentifier = "DF8A9BF1C5948224F5CBEB21E5EF1409"
                BuildableName = "libPods-XGYNetWorkComponents.a"
                BlueprintName = "Pods-XGYNetWorkComponents"
                ReferencedContainer = "container:Pods.xcodeproj">
