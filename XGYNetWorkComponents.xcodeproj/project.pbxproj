@@ -16,6 +16,8 @@
 		1D229FFC22A8BE690024B3CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D229FFB22A8BE690024B3CD /* main.m */; };
 		1D22A00622A8BE6A0024B3CD /* XGYNetWorkComponentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D22A00522A8BE6A0024B3CD /* XGYNetWorkComponentsTests.m */; };
 		1D22A01122A8BE6A0024B3CD /* XGYNetWorkComponentsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D22A01022A8BE6A0024B3CD /* XGYNetWorkComponentsUITests.m */; };
+		1DC93F3F22A8F3600097E143 /* XGYMediator+NetWorkMediatorModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC93F3D22A8F3600097E143 /* XGYMediator+NetWorkMediatorModule.m */; };
+		1DC93F4222A8F6630097E143 /* Target_NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC93F4122A8F6630097E143 /* Target_NetWork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,10 @@
 		1D22A00C22A8BE6A0024B3CD /* XGYNetWorkComponentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XGYNetWorkComponentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D22A01022A8BE6A0024B3CD /* XGYNetWorkComponentsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XGYNetWorkComponentsUITests.m; sourceTree = "<group>"; };
 		1D22A01222A8BE6A0024B3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC93F3D22A8F3600097E143 /* XGYMediator+NetWorkMediatorModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XGYMediator+NetWorkMediatorModule.m"; sourceTree = "<group>"; };
+		1DC93F3E22A8F3600097E143 /* XGYMediator+NetWorkMediatorModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XGYMediator+NetWorkMediatorModule.h"; sourceTree = "<group>"; };
+		1DC93F4022A8F6630097E143 /* Target_NetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_NetWork.h; sourceTree = "<group>"; };
+		1DC93F4122A8F6630097E143 /* Target_NetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_NetWork.m; sourceTree = "<group>"; };
 		A2F65DDC371EAA2357D760BD /* libPods-XGYNetWorkComponents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XGYNetWorkComponents.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01CD78E8C431D7BE7EBE650 /* Pods-XGYNetWorkComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGYNetWorkComponents.release.xcconfig"; path = "Target Support Files/Pods-XGYNetWorkComponents/Pods-XGYNetWorkComponents.release.xcconfig"; sourceTree = "<group>"; };
 		F186406918626084792D9223 /* Pods-XGYNetWorkComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XGYNetWorkComponents.debug.xcconfig"; path = "Target Support Files/Pods-XGYNetWorkComponents/Pods-XGYNetWorkComponents.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +114,7 @@
 		1D229FEB22A8BE680024B3CD /* XGYNetWorkComponents */ = {
 			isa = PBXGroup;
 			children = (
+				1DC93F3C22A8F3600097E143 /* NetWorkComponents */,
 				1D229FEC22A8BE680024B3CD /* AppDelegate.h */,
 				1D229FED22A8BE680024B3CD /* AppDelegate.m */,
 				1D229FEF22A8BE680024B3CD /* ViewController.h */,
@@ -137,6 +144,17 @@
 				1D22A01222A8BE6A0024B3CD /* Info.plist */,
 			);
 			path = XGYNetWorkComponentsUITests;
+			sourceTree = "<group>";
+		};
+		1DC93F3C22A8F3600097E143 /* NetWorkComponents */ = {
+			isa = PBXGroup;
+			children = (
+				1DC93F3E22A8F3600097E143 /* XGYMediator+NetWorkMediatorModule.h */,
+				1DC93F3D22A8F3600097E143 /* XGYMediator+NetWorkMediatorModule.m */,
+				1DC93F4022A8F6630097E143 /* Target_NetWork.h */,
+				1DC93F4122A8F6630097E143 /* Target_NetWork.m */,
+			);
+			path = NetWorkComponents;
 			sourceTree = "<group>";
 		};
 		2D6132BE73DD08E7D57B2E3C /* Frameworks */ = {
@@ -315,6 +333,8 @@
 				1D229FF122A8BE680024B3CD /* ViewController.m in Sources */,
 				1D229FFC22A8BE690024B3CD /* main.m in Sources */,
 				1D229FEE22A8BE680024B3CD /* AppDelegate.m in Sources */,
+				1DC93F4222A8F6630097E143 /* Target_NetWork.m in Sources */,
+				1DC93F3F22A8F3600097E143 /* XGYMediator+NetWorkMediatorModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

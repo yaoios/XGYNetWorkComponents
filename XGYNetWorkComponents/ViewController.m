@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "XGYMediator+NetWorkMediatorModule.h"
 
 @interface ViewController ()
+
 
 @end
 
@@ -17,6 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+ 
+    [[XGYMediator sharedInstance] postRequestwithURL:@"url" withParmeters:@{@"data":@"d"} withResultBack:^(id  _Nonnull obj, NSError * _Nonnull error) {
+        NSLog(@"==%@",obj);
+    }];
 }
 
 

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ECEF666DEABBD85384AED60145926A01"
+               BlueprintIdentifier = "FB3778ABCBF1B2B681A04989F9F25717"
                BuildableName = "libXGYMediator.a"
                BlueprintName = "XGYMediator"
                ReferencedContainer = "container:Pods.xcodeproj">
