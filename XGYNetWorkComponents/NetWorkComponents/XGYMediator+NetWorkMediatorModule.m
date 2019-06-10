@@ -26,6 +26,10 @@ NSString * const yActionGetMethods = @"getRequestwithURLParmeters";
 }
 
 
+static id extracted(XGYMediator *object, NSMutableDictionary *dicData) {
+    return [object performTarget:yTargetClassNetWork action:yActionGetMethods params:dicData shouldCacheTarget:NO];
+}
+
 /**
  get请求
  
@@ -39,7 +43,7 @@ NSString * const yActionGetMethods = @"getRequestwithURLParmeters";
         dicData[@"url"] = url;
         dicData[@"backResult"] = backResult;
         dicData[@"data"] = parmeters;
-        [self performTarget:yTargetClassNetWork action:yActionGetMethods params:dicData shouldCacheTarget:NO];
+        extracted(self, dicData);
         
     }
 }
